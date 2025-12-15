@@ -10,13 +10,28 @@ void draw(){
   fill(255,255,255);
   strokeWeight(1);
 
-  //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  //background
+rect (1,2,500,500)
 
-  
+  //neck
+
+
+fill (175, 112, 184)
+rect (50, 150, 300, 500)
+
+
+
+
+
+
+//face
+fill(219, 147, 178)
+ellipse(200,200,400,400)
+
+
+
 
 }
-
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
 
