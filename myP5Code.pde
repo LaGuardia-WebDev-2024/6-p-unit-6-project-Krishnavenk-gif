@@ -23,13 +23,37 @@ rect (50, 150, 300, 500)
 
 
 
-
 //face
 fill(219, 147, 178)
 ellipse(200,200,400,400)
 
+//head
+fill(81, 85, 145)
+ellipse(200,60,300, 120)
+
+//littleguyinhead
 
 
+fill(219, 147, 178)
+ellipse(114,58,20,20)
+
+//smile
+rotate(-0.3)
+fill(0, 0, 0)
+noStroke()
+ellipse(170,350,150,100)
+
+
+
+
+rotate(-.05)
+ellipse(230,230,150,100)
+
+
+//eyes
+stroke(0,0,0)
+strokeWeight(2)
+line(154,187,68,167)
 
 }
 //🟡Extra FUN Features Ms. Hall Added
