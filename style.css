@@ -1,11 +1,4 @@
-body {
-   background-image: linear-gradient(
-    to right, /* or 'to bottom' for horizontal stripes, or an angle like 45deg */
-    #c7e8fd 0%, /* Red starts at 0% */
-  
-    #20deff 100% /* Yellow ends at 100% */
-  );
-}
+
 
 html{
   height: 100%;
@@ -46,3 +39,12 @@ h2{
 #end{
   text-align: right;
 }
+
+
+body{
+  background-image: url(https://i.pinimg.com/originals/17/00/09/170009ce70039c9a6c900f9e61759d88.gif);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+

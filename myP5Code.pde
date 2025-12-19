@@ -1,13 +1,14 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+   
+    background(124, 150, 222);
 }
 
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(124, 150, 222);
   strokeWeight(1);
 
   //background
@@ -41,19 +42,42 @@ ellipse(114,58,20,20)
 rotate(-0.3)
 fill(0, 0, 0)
 noStroke()
-ellipse(170,350,150,100)
+ellipse(130,380,240,100)
+rotate(0.3)
 
 
 
-
-rotate(-.05)
-ellipse(230,230,150,100)
-
+rotate(.3)
+fill(0,0,0)
+ellipse(250,260,240,100)
+rotate(-.3)
 
 //eyes
 stroke(0,0,0)
-strokeWeight(2)
+strokeWeight(4)
 line(154,187,68,167)
+line(235,191,324,170)
+
+//teeth
+stroke(232, 232, 232)
+strokeWeight(30)
+line(107,270,199,298)
+line(302,268,202,298)
+
+//bottom
+strokeWeight(10)
+line(151,361,251,365)
+
+
+
+//nose
+noStroke()
+fill(179, 89, 126)
+arc(198,240,180,80,radians(0),radians(180))
+
+
+//lips
+
 
 }
 //🟡Extra FUN Features Ms. Hall Added
